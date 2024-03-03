@@ -1,0 +1,34 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --exec ts-node -r tsconfig-paths/register src/index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "koa": "^2.15.0",
+        "koa-router": "^12.0.1",
+        "mysql2": "^3.9.2",
+        "sequelize": "^6.37.1"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.15.0",
+        "@types/koa-router": "^7.4.8",
+        "@types/node": "^20.11.24",
+        "@types/sequelize": "github:types/sequelize",
+        "@typescript-eslint/parser": "^7.1.0",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "nodemon": "^3.1.0",
+        "prettier": "3.2.5",
+        "ts-node": "^10.9.2",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.3.3"
+    }
+}
